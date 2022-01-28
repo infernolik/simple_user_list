@@ -63,7 +63,7 @@ export default function EditModal() {
         }
       } else {
         // Условная отправка данных формы (вывод в консоль)
-        console.log(contact);
+        console.log(JSON.stringify(contact));
         document
           .querySelectorAll(".form-field")
           .forEach((div) => div.classList.remove("warning"));
