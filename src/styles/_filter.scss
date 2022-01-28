@@ -1,0 +1,29 @@
+$white: #ffffff;
+$grey: #bdbdbd;
+$blue: #4d4be9;
+$green: #58d05c;
+
+.filter-panel {
+  font-size: 1.1rem;
+  font-weight: 400;
+  min-width: 225px;
+  flex-basis: 225px;
+  background-color: $grey;
+  min-height: 100vh;
+  padding: 2.5rem 1rem 1rem 1.5rem;
+  .filter-options {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+  }
+}
+
+// Filter buttons
+.filters {
+  display: block;
+  margin-top: 0.7rem;
+}
+
+.selected {
+  background-color: $green !important;
+}

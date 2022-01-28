@@ -1,0 +1,31 @@
+$grey_item: #f3f3f3;
+$grey_field: #a3a3a3;
+$blue: #4d4be9;
+
+.userItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $grey_item;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  .data-field {
+    font-weight: 500;
+    padding-bottom: 1rem;
+    &:last-child {
+      padding-bottom: 0;
+    }
+    & > span {
+      color: $grey_field;
+      font-weight: 400;
+    }
+  }
+  .more {
+    color: $blue;
+    align-self: flex-end;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+.filter-panel {
+  font-size: 1.1rem;
+  font-weight: 400;
+  min-width: 225px;
+  flex-basis: 225px;
+  background-color: #bdbdbd;
+  min-height: 100vh;
+  padding: 2.5rem 1rem 1rem 1.5rem;
+}
+.filter-panel .filter-options {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+}
+
+.filters {
+  display: block;
+  margin-top: 0.7rem;
+}
+
+.selected {
+  background-color: #58d05c !important;
+}
+
+.userList h2 {
+  margin-bottom: 1.5rem;
+}
+
+.userItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.userItem .data-field {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.userItem .data-field:last-child {
+  padding-bottom: 0;
+}
+.userItem .data-field > span {
+  color: #a3a3a3;
+  font-weight: 400;
+}
+.userItem .more {
+  color: #4d4be9;
+  align-self: flex-end;
+}
+.userItem .more:hover {
+  opacity: 0.8;
+}
+
+.userProfile #edit,
+.userProfile .enabled,
+.userProfile .disabled {
+  border: none;
+  font-size: 1.3rem;
+  float: right;
+  display: inline-block;
+}
+.userProfile h2 {
+  display: inline-block;
+}
+.userProfile #edit-form {
+  margin-top: 1.5rem;
+  border: 2px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 3rem 1rem 0;
+}
+.userProfile #edit-form form > .form-field {
+  border: 2px solid #d8d8d8;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+.userProfile #edit-form form > .form-field > label {
+  position: absolute;
+  top: -22px;
+  font-size: 0.85rem;
+}
+.userProfile #edit-form form > .form-field > input {
+  margin-left: 1rem;
+  width: calc(100% - 1.5rem);
+  min-height: 2rem;
+  border: none;
+}
+.userProfile #edit-form form > .form-field > input::placeholder {
+  font-size: 1rem;
+}
+.userProfile #edit-form form > .form-field > input:focus {
+  outline: none;
+}
+.userProfile .enabled {
+  background-color: #58d05c;
+  margin-top: 2rem;
+}
+.userProfile .disabled {
+  background-color: #afafaf;
+  margin-top: 2rem;
+}
+.userProfile .disabled:hover {
+  cursor: auto;
+  opacity: 1;
+}
+
+#comment-field {
+  padding: 0.7rem 1rem;
+  width: 100% !important;
+}
+#comment-field textarea {
+  width: 100%;
+  min-height: 90px;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.warning {
+  border-color: red !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+}
+
+.userContainer {
+  flex-basis: 100%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 1.8rem 3rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  background-color: #4d4be9;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=App.css.map */
